@@ -2,14 +2,44 @@ body {
     background-color: black !important;
 }
 
+#halfsParent {
+    overflow: hidden;
+}
+
 #leftHalf {
-   background: url(img/Name%20Logo.png);
+/*   background: url(img/Name%20Logo.png);*/
     background-size: cover;
-   width: 15%;
+   width: 50%;
+    margin: 0px;
    position: absolute;
    left: 0px;
-   height: 15%;
+/*   height: 15%;*/
+    top: 35%; 
 }
+
+#logo {
+    width: 35%;
+    left: 35%;
+    position: absolute;
+}
+
+#profMUA {
+    position: absolute;
+    left: 35%;
+    padding-top: 14%;
+    color: #DDB695;
+    font-weight: 100;
+    letter-spacing: .1vw;
+    font-size: 1.2vw;
+}
+
+#enter {
+    position: absolute;
+    left: 47%;
+    margin-top: 23%;
+    
+}
+
 #rightHalf {
    background: url(img/jones.jpeg);
    width: 50%;
@@ -17,4 +47,12 @@ body {
    right: 0px;
    height: 100%;
     background-size: cover;
+    float: right;
+    overflow: hidden;
 }
+
+/*#jonesImg {*/
+/*    height: 100%;*/
+/*    min-width: 100%; how do i */
+/*    position: absolute;*/
+/*}*/
