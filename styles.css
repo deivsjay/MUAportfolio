@@ -95,7 +95,7 @@ body {
     text-decoration: none;
 }
 
-#contact:hover {
+#contact:hover, #email-footer:link {
     color: white;
     text-decoration: none;
 }
@@ -138,14 +138,32 @@ body {
 
 #portfolio-footer {
     margin: 0;
+    display: none;
 }
 
 #contact-footer {
     margin:0;
     padding: 2%;
-    margin-top: 0.5%;
+/*    margin-top: 0.5%;*/
     font-weight: 100;
     color: white;
     font-size: .8vw;
     letter-spacing: .1vw;
+}
+
+.portfolio-picture {
+    display: none;
+}
+
+.fa-instagram, .fa-linkedin, .fa-facebook-f {
+    color: white;
+    margin-top: 2%;
+}
+
+.fa-instagram:before, .fa-linkedin:before, .fa-facebook-f:before {
+    font-size: 1.8vw;
+}
+
+.fa-instagram:hover, .fa-linkedin:hover, .fa-facebook-f:hover {
+    color: #F6ABC1;
 }
